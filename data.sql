@@ -84,4 +84,6 @@ update transaksi
 
 -- Menghapus data dari tabel --
 delete from customer where nama = "elang";
+delete from product where nama = "obat";
+delete from category where kd_kategori = "or08";
 delete from transaksi where id_transaksi = 20;
